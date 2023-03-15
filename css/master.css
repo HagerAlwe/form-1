@@ -1,0 +1,51 @@
+body  {
+    background-color: rgba(137, 43, 226, 0.253);
+}
+
+form {
+    width: 40%;
+    padding-top: 10%;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(43, 101, 226, 0.253);
+    flex-wrap: wrap;
+}
+ form input {
+    background-color: rgba(173, 113, 210, 0.432);
+    height: 50px;
+    border-style: none;
+    text-align: center;
+    margin: 15px;
+    outline: none;
+    cursor: pointer;
+
+}
+::placeholder {
+    color: black;
+}
+form input:hover{
+    background-color: rgba(240, 248, 255, 0.651);
+
+}
+
+.note {
+    background-color: rgba(173, 113, 210, 0.432);
+    font-size: 20px;
+    height: 15%;
+    border-style: none;
+    margin: 5%;
+    width: 70%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media (min-width:200px) and (max-width:1200px) {
+    form {
+        width: 88%;}
+}
